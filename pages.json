@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/buycar/buycar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#d8d8d8",
+		"backgroundColor": "white",
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "home",
+				"iconPath": "static/tabbarImage/home.png",
+				"selectedIconPath": "static/tabbarImage/home-active.png"
+			},{
+				"pagePath": "pages/category/category",
+				"text": "category",
+				"iconPath": "static/tabbarImage/category.png",
+				"selectedIconPath": "static/tabbarImage/category-active.png"
+			},{
+				"pagePath": "pages/buycar/buycar",
+				"text": "buycar",
+				"iconPath": "static/tabbarImage/cart.png",
+				"selectedIconPath": "static/tabbarImage/cart-active.png"
+			},{
+				"pagePath": "pages/mine/mine",
+				"text": "mine",
+				"iconPath": "static/tabbarImage/mine.png",
+				"selectedIconPath": "static/tabbarImage/mine-active.png"
+			}
+			
+		]
+	}
+}
